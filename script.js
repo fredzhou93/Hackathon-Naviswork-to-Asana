@@ -30,15 +30,22 @@ $('#xml-upload').submit(function(e){
 
 function execute() {
 	//Get Data from XML
-	let project;
-	let projectInfo = createProject(project);
+	let projectInfo = createProject(project).data;
 	
-	//Use the Data from projectInfo e.g. projectId and feed into the tasks
+	//Use the Data from projectInfo e.g. projectId, and feed into the tasks
 	
-	//Check if it's update
-	let tasks;
+	//Check if it's a update
+	let taskObject = getTaskObject(projectInfo.id);
+	let existingTaskList = turnTaskObjectToList(taskObject);
+	
 	tasks.forEach(function(task) {
-		createTask(task);
+		if(checkUpdateOrCreate(task.taskName, existingTaskList)) {
+			createTask(task);
+		}
+		else {
+			//function needed to get the id of that existing task
+			updateTask(task, taskId);
+		}
 	})
 }
 
@@ -46,6 +53,9 @@ function execute() {
 function createProject(project) {
 	$.ajax({
 		url: 'https://app.asana.com/api/1.0/projects',
+		beforeSend: function(xhr) { 
+			 xhr.setRequestHeader("Authorization": 'Bearer <personal_access_token>'); 
+    		},
 		type: 'post',
 		data: project
 	})
@@ -61,6 +71,28 @@ function createProject(project) {
 function createTask(task) {
 	$.ajax({
 		url: 'https://app.asana.com/api/1.0/tasks',
+		beforeSend: function(xhr) { 
+			 xhr.setRequestHeader("Authorization": 'Bearer <personal_access_token>'); 
+    		},
+		type: 'post',
+		data: task
+	})
+	.done(function(data) {
+		return data;
+	})
+	.fail(function() {
+		console.log("error");
+	});
+}
+
+//update Existing Task
+function updateTask(task, id) {
+	let updateUrl = 'https://app.asana.com/api/1.0/tasks/' + id;
+	$.ajax({
+		url: updateUrl,
+		beforeSend: function(xhr) { 
+			 xhr.setRequestHeader("Authorization": 'Bearer <personal_access_token>'); 
+    		},
 		type: 'post',
 		data: task
 	})
@@ -77,6 +109,9 @@ function updateAttachment(file, id) {
 	let urlForAttachment = 'https://app.asana.com/api/1.0/tasks/' + id + '/attachments';
 	$.ajax({
 		url: urlForAttachment,
+		beforeSend: function(xhr) { 
+			 xhr.setRequestHeader("Authorization": 'Bearer <personal_access_token>'); 
+    		},
 		type: 'post',
 		data: file
 	})
@@ -93,6 +128,9 @@ function getTaskObject(id) {
 	let urlForTasks = 'https://app.asana.com/api/1.0/projects/' + id + '/tasks';
 	$.ajax({
 		url: urlForTasks,
+		beforeSend: function(xhr) { 
+			 xhr.setRequestHeader("Authorization": 'Bearer <personal_access_token>'); 
+    		},
 		type: 'get',
 	})
 	.done(function(data) {
@@ -118,10 +156,10 @@ function turnTaskObjectToList(taskObject) {
 //oldTaskList will be returned by function turnTaskObjectToList
 function checkUpdateOrCreate(taskName, oldTaskList) {
 	if (oldTaskList.indexOf(taskName) === -1) {
-		return false;
+		return true;
 	}
 	else {
-		return true;
+		return false;
 	}
 }
 
