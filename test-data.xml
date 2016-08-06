@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="ft" filename="BIM130_Coordination Model_080416.nwd" filepath="C:\Users\modeler\Desktop\Hackathon">
+  <batchtest name="Report" internal_name="Report" units="ft">
+    <clashtests>
+      <clashtest name="L01_ELEC VS MECH" test_type="hard" status="old" tolerance="0.000" merge_composites="1">
+        <linkage mode="none"/>
+        <rules/>
+        <summary total="14" new="8" active="6" reviewed="0" approved="0" resolved="0">
+          <testtype>Hard</testtype>
+          <teststatus>Old</teststatus>
+        </summary>
+        <clashresults>
+          <clashgroup name="Round Duct vs Light" guid="cc1b2a11-c865-40b1-bfc2-b6b023b651af" href="L01_ELEC VS MECH_files\cd010001.jpg" status="new" distance="-0.194">
+            <description>Hard</description>
+            <resultstatus>New</resultstatus>
+            <clashpoint>
+              <pos3f x="17.077" y="-26.875" z="15.403"/>
+            </clashpoint>
+            <gridlocation>B.8-1 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="8" day="4" hour="17" minute="36" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1772983</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>D3</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2407270</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>&lt;No level&gt;</node>
+                  <node>Duct Insulations</node>
+                  <node>Duct Insulation</node>
+                  <node>Default</node>
+                  <node>Duct Insulation</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Duct Insulation</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Duct vs Light" guid="8eaef88d-d31a-473b-a8b3-0e10cd99fe6d" href="L01_ELEC VS MECH_files\cd010002.jpg" status="new" distance="-0.276">
+            <description>Hard</description>
+            <resultstatus>New</resultstatus>
+            <clashpoint>
+              <pos3f x="21.895" y="-36.177" z="15.333"/>
+            </clashpoint>
+            <gridlocation>CL EW-1.9 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="8" day="4" hour="17" minute="36" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1772974</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>D3</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2407268</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>&lt;No level&gt;</node>
+                  <node>Duct Insulations</node>
+                  <node>Duct Insulation</node>
+                  <node>Default</node>
+                  <node>Duct Insulation</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Duct Insulation</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Light vs Duct" guid="509aab8d-b7f9-408c-973f-e23ef717deab" href="L01_ELEC VS MECH_files\cd010003.jpg" status="new" distance="-0.276">
+            <description>Hard</description>
+            <resultstatus>New</resultstatus>
+            <clashpoint>
+              <pos3f x="56.715" y="-40.085" z="15.333"/>
+            </clashpoint>
+            <gridlocation>B-3 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="8" day="4" hour="17" minute="36" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1785576</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>D3</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2407265</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>&lt;No level&gt;</node>
+                  <node>Duct Insulations</node>
+                  <node>Duct Insulation</node>
+                  <node>Default</node>
+                  <node>Duct Insulation</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Duct Insulation</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Duct Equip vs Light" guid="073892f3-35ba-4319-8f2c-c5f7cb037d8b" href="L01_ELEC VS MECH_files\cd010004.jpg" status="new" distance="-0.052">
+            <description>Hard</description>
+            <resultstatus>New</resultstatus>
+            <clashpoint>
+              <pos3f x="93.145" y="-33.599" z="15.573"/>
+            </clashpoint>
+            <gridlocation>CL EW-P14 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="8" day="4" hour="17" minute="36" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1785573</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>D3</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1677384</value>
+                </objectattribute>
+                <layer>First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>First Floor</node>
+                  <node>Mechanical Equipment</node>
+                  <node>Titus_DESV_LH-7in</node>
+                  <node>Titus_DESV_LH-7in</node>
+                  <node>Titus_DESV_LH-7in</node>
+                  <node>Titus_DESV_LH-7in</node>
+                  <node>Steel</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Steel</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Duct vs Light" guid="dc031182-f6bd-4dff-9abd-057bce731d60" href="L01_ELEC VS MECH_files\cd010005.jpg" status="new" distance="-0.276">
+            <description>Hard</description>
+            <resultstatus>New</resultstatus>
+            <clashpoint>
+              <pos3f x="89.669" y="-40.085" z="15.333"/>
+            </clashpoint>
+            <gridlocation>B-P14 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="8" day="4" hour="17" minute="36" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1785572</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>D3</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2407303</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>&lt;No level&gt;</node>
+                  <node>Duct Insulations</node>
+                  <node>Duct Insulation</node>
+                  <node>Default</node>
+                  <node>Duct Insulation</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Duct Insulation</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Duct vs Light" guid="6137c9bf-5e98-4869-b43c-0818f80cc3f9" href="L01_ELEC VS MECH_files\cd010006.jpg" status="new" distance="-0.125">
+            <description>Hard</description>
+            <resultstatus>New</resultstatus>
+            <clashpoint>
+              <pos3f x="90.943" y="-54.832" z="15.458"/>
+            </clashpoint>
+            <gridlocation>A.3-P14 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="8" day="4" hour="17" minute="36" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1783048</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>Troffer - Lens</node>
+                  <node>N6</node>
+                  <node>Troffer - Lens</node>
+                  <node>N6</node>
+                  <node>Metal - Chrome</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Metal - Chrome</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2407301</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>&lt;No level&gt;</node>
+                  <node>Duct Insulations</node>
+                  <node>Duct Insulation</node>
+                  <node>Default</node>
+                  <node>Duct Insulation</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Duct Insulation</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Duct vs Light" guid="2c1d7c06-ab84-4ba5-a960-9cb67797fb2c" href="L01_ELEC VS MECH_files\cd010007.jpg" status="new" distance="-0.041">
+            <description>Hard</description>
+            <resultstatus>New</resultstatus>
+            <clashpoint>
+              <pos3f x="119.874" y="-56.073" z="15.373"/>
+            </clashpoint>
+            <gridlocation>A.3-6 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="8" day="4" hour="17" minute="36" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1789337</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>2TLED-2x4</node>
+                  <node>M2</node>
+                  <node>2TLED-2x4</node>
+                  <node>M2</node>
+                  <node>TLED - Housing</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>TLED - Housing</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2407377</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>&lt;No level&gt;</node>
+                  <node>Duct Insulations</node>
+                  <node>Duct Insulation</node>
+                  <node>Default</node>
+                  <node>Duct Insulation</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Duct Insulation</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Duct vs Light" guid="19264764-2c81-4098-bf7c-3d00513fb138" href="L01_ELEC VS MECH_files\cd010008.jpg" status="new" distance="-0.125">
+            <description>Hard</description>
+            <resultstatus>New</resultstatus>
+            <clashpoint>
+              <pos3f x="110.426" y="-35.995" z="15.500"/>
+            </clashpoint>
+            <gridlocation>CL EW-5.1 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="8" day="4" hour="17" minute="36" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1772435</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>D3</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2581962</value>
+                </objectattribute>
+                <layer>First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>First Floor</node>
+                  <node>Ducts</node>
+                  <node>Rectangular Duct</node>
+                  <node>Mitered Elbows / Taps</node>
+                  <node>Rectangular Duct</node>
+                  <node>Line</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Rectangular Duct</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Line</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Duct vs Light" guid="48e1ad3a-17a5-46ae-9bdd-8bf6120d218e" href="L01_ELEC VS MECH_files\cd010009.jpg" status="active" distance="-0.282">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="119.682" y="-44.295" z="15.001"/>
+            </clashpoint>
+            <gridlocation>B-6 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="7" day="28" hour="4" minute="34" second="55"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1789333</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>2TLED-2x4</node>
+                  <node>M2</node>
+                  <node>2TLED-2x4</node>
+                  <node>M2</node>
+                  <node>TLED - Housing</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>TLED - Housing</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2407396</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>&lt;No level&gt;</node>
+                  <node>Duct Insulations</node>
+                  <node>Duct Insulation</node>
+                  <node>Default</node>
+                  <node>Duct Insulation</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Duct Insulation</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Lighting vs Duct Insulation" guid="c0de7096-8b20-4899-89c7-63b1e3db9b86" href="L01_ELEC VS MECH_files\cd010010.jpg" status="active" distance="-0.276">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="110.415" y="-36.021" z="15.333"/>
+            </clashpoint>
+            <gridlocation>CL EW-5.1 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="7" day="28" hour="4" minute="34" second="55"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1772435</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>D3</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2581964</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>&lt;No level&gt;</node>
+                  <node>Duct Insulations</node>
+                  <node>Duct Insulation</node>
+                  <node>Default</node>
+                  <node>Duct Insulation</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Duct Insulation</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Lighting vs Flex Duct" guid="5eba7262-f9ef-4d5c-942c-57611c78f873" href="L01_ELEC VS MECH_files\cd010011.jpg" status="active" distance="-0.176">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="103.445" y="-19.454" z="15.371"/>
+            </clashpoint>
+            <gridlocation>C-5.1 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="7" day="28" hour="4" minute="34" second="55"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1772438</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>D3</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1677770</value>
+                </objectattribute>
+                <layer>First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>First Floor</node>
+                  <node>Flex Ducts</node>
+                  <node>Flex Duct Round</node>
+                  <node>Flex - Round</node>
+                  <node>Flex Duct Round</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Flex Duct Round</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Lighting vs Duct, Diffuser" guid="f8af4b2c-b50e-40c3-8f8f-af86fa5ec29c" href="L01_ELEC VS MECH_files\cd010012.jpg" status="active" distance="-0.100">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="15.906" y="-55.998" z="10.402"/>
+            </clashpoint>
+            <gridlocation>A.3-1 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="7" day="28" hour="4" minute="34" second="55"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1772419</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D7</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D7</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>D7</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2410240</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>&lt;No level&gt;</node>
+                  <node>Duct Insulations</node>
+                  <node>Duct Insulation</node>
+                  <node>Default</node>
+                  <node>Duct Insulation</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Duct Insulation</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Lighting vs Flex Duct" guid="fa44a9bb-d9f6-422c-b953-b5d72dc02473" href="L01_ELEC VS MECH_files\cd010013.jpg" status="active" distance="-0.086">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="2.521" y="-32.834" z="15.463"/>
+            </clashpoint>
+            <gridlocation>CL EW-1 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="7" day="28" hour="4" minute="34" second="55"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1783678</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>D3</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1686649</value>
+                </objectattribute>
+                <layer>First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>First Floor</node>
+                  <node>Flex Ducts</node>
+                  <node>Flex Duct Round</node>
+                  <node>Flex - Round</node>
+                  <node>Flex Duct Round</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Flex Duct Round</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+          <clashgroup name="Lighting vs Duct Insulation" guid="525b8751-81f4-45b5-a8ff-3cedadd46693" href="L01_ELEC VS MECH_files\cd010014.jpg" status="active" distance="-0.042">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="28.375" y="-3.438" z="15.625"/>
+            </clashpoint>
+            <gridlocation>D-1.9 : Basement</gridlocation>
+            <createddate>
+              <date year="2016" month="7" day="28" hour="4" minute="34" second="55"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1783630</value>
+                </objectattribute>
+                <layer>01 - First Floor</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_ELEC_LIGHTING.nwc</node>
+                  <node>01 - First Floor</node>
+                  <node>Lighting Fixtures</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Downlight LED - Recessed Can Square</node>
+                  <node>D3</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>D3</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2407250</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>BIM130_Coordination Model_080416.nwd</node>
+                  <node>BIM130_Mech_01.nwd</node>
+                  <node>&lt;No level&gt;</node>
+                  <node>Duct Insulations</node>
+                  <node>Duct Insulation</node>
+                  <node>Default</node>
+                  <node>Duct Insulation</node>
+                  <node>Solid</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Duct Insulation</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashgroup>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>
