@@ -123,6 +123,5 @@ function checkUpdateOrCreate(taskName, oldTaskList) {
 	else {
 		return true;
 	}
-	}
 }
-}
+
